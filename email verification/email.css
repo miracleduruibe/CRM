@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.main {
+  padding-left: 3.5rem;
+}
+.header-link {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 5rem;
+}
+.signin-button {
+  width: 84px;
+  height: 40px;
+  padding: 0.5rem 1.5rem;
+  background: #0015a1;
+  border: #0015a1;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+/* .create-button {
+  width: 126px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: transparent;
+  color: #101038;
+  border: none;
+}
+.create-button::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  left: 286px;
+  top: 52px;
+  background: #2a46ff;
+  border-radius: 1px;
+  border: #2a46ff;
+  transition: 0.3s;
+} */
+.form-section {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-right: 3rem;
+  padding-left: 5rem;
+  margin-top: 3rem;
+}
+.form-section h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 32px;
+  color: #2b3674;
+  font-weight: 600;
+}
+.form-section p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #10103899;
+}
+.form-message {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.02rem;
+  color: #cccde2;
+  padding: 0 5rem 0 0.8rem;
+  margin-right: 13rem;
+}
+.form-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #101038;
+}
+#email {
+  font-size: 12px;
+  padding-left: 1.5rem;
+  height: 40px;
+  width: 392px;
+  border: 1px solid #2a46ff;
+  border-radius: 12px;
+  background: #ffffff;
+  font-weight: 400;
+  line-height: 100%;
+}
+.continue-button {
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid #0015a1;
+  width: 400px;
+  height: 40px;
+  background: #0015a1;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+#banner-content {
+  padding: 1.5rem 1rem;
+  height: 100vh;
+}
+
+.login-banner {
+  margin-top: 8.5rem;
+}
+.login-banner h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: #2b3674;
+}
+.login-banner p {
+  text-align: center;
+  padding: 0px 110px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #10103899;
+}
+.banner-image {
+  height: 300px;
+  width: 391px;
+  position: absolute;
+  left: 62%;
+}
+.empty {
+  position: absolute;
+  width: 139px;
+  height: 100vh;
+  left: 1223px;
+  top: 0px;
+  background: #e7eaff;
+  opacity: 0.2;
+  border-radius: 0px 0px 0px 128px;
+}
+/*------------------------------------------------------------
+  MEDIA QUERIES
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  
+  /* .create-button {
+    display: none;
+  } */
+  /* .mobile-view-image {
+    height: 250px;
+    width: 300px;
+    opacity: 0.9;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    margin-bottom: -5rem;
+  } */
+  #email {
+    height: 38px;
+  }
+
+  /* .main {
+    margin-left: 4rem;
+  } */
+  /* .form-section h3,
+  .form-section p {
+    margin-left: 2.5rem;
+  } */
+  .form-section h3 {
+    margin-bottom: -0.2rem;
+  }
+  .form-section p {
+    margin-bottom: -2rem;
+  }
+  .form-message {
+    margin: 0;
+    margin-left: -4.5rem;
+  }
+  #banner-content {
+    display: none;
+  }
+  .form-label {
+    margin-bottom: -0.5rem;
+  }
+  #signinForm span {
+    font-size: 12px;
+    margin-left: 4rem;
+  }
+  .continue-button {
+    height: 38px;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 669px) {
+  .main {
+    margin-left: -0.7rem;
+  }
+  /* .mobile-view-image {
+    height: 250px;
+    width: 400px;
+    margin-left: 14.5rem;
+  } */
+  .form-message,
+  #signinForm span {
+    margin: auto;
+  }
+}
+/*---------------------------------------------------------------------------------------------
+    SMALL SCREEN
+-------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 576px) {
+  .form-section {
+    padding: 0;
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .signin-button{
+    margin-left: -5rem;
+  }
+  /* .form-section {
+    margin-left: -100px;
+  } */
+  /* .form-section h3,
+  .form-section p {
+    display: block;
+    margin: auto;
+    width: auto;
+  } */
+  .form-section h3 {
+    margin-top: 2rem;
+  }
+  /* .form-section p {
+    display: block;
+    margin: auto;
+    width: auto;
+  } */
+  /* .form-section h3{
+    padding-top: -9rem;
+  } */
+  
+  .form-section p {
+    margin-bottom: -2rem;
+  }
+  /* .mobile-view-image {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto !important;
+  } */
+  .form-message,
+  #signinForm span {
+    margin: auto;
+  }
+  .continue-button {
+    margin-top: 1.8rem;
+  }
+}
+@media screen and (max-width: 477px) {
+  .form-section h3 {
+    font-size: 25px;
+  }
+  .form-section p {
+    font-size: 11px;
+  }
+  .form-label {
+    font-size: 11px;
+  }
+  #email {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 377px) {
+  .continue-button,
+  #email {
+    width: 100%;
+  }
+}
+/*----------------------------------------------
+LARGE SCREENS
+---------------------------------------------*/
+
+@media screen and (min-width:769px) and (max-width: 991px) {
+  /* .create-button{
+    display: none;
+  } */
+  /* .signin-button{
+    display: none;
+  } */
+  #banner-content {
+    display: none;
+  }
+  /* .mobile-view-image {
+    height: 250px;
+    width: 350px;
+    opacity: 0.9;
+    margin-left: 20rem;
+    margin-top: 1rem;
+  } */
+  /* .main {
+    margin-left: 6rem;
+  } */
+  .form-section {
+    display: block;
+    width: auto;
+    margin: auto;
+  }
+  .form-section h3 {
+    margin-top: 2rem;
+    margin-bottom: -0.2rem;
+  }
+  .form-section p {
+    margin-bottom: -2.2rem;
+  }
+  /* .form-section h3,
+  .form-section p {
+    margin-left: 3rem;
+  } */
+
+  .form-label {
+    margin-bottom: -0.5rem;
+  }
+  #email{
+    height: 38px;
+  }
+
+  .continue-button {
+    height: 38px;
+    margin-bottom: 0.8rem;
+    margin-top: 3.55rem;
+  }
+  #signinForm span {
+    font-size: 12px;
+    margin:auto;
+  }
+}
+@media screen and (max-width: 1326px) {
+  .login-banner {
+    margin-top: 6.5rem;
+  }
+  .banner-image {
+    height: 280px;
+    width: 350px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 64%;
+  }
+}
+

@@ -1,0 +1,502 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  padding-left: 3.5rem;
+}
+/* .header-link {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 5rem;
+} */
+/* .signup-button {
+  width: 75px;
+  height: 26px;
+  background: rgba(51, 57, 132, 0.05);
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #2b3674;
+}
+.signup-button::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  left: 164px;
+  top: 52px;
+  background: #2a46ff;
+  border-radius: 1px;
+  border: #2a46ff;
+  transition: 0.3s;
+} */
+.create-button {
+  text-decoration: none;
+  border-radius: 13px;
+  border: 2px solid #2b3674;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.05rem;
+  color: #2b3674;
+  background-color: transparent;
+  width: 126px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-left: 5.2rem;
+}
+.form-section {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  padding-left: 5rem;
+  margin-top: 3rem;
+}
+.form-section h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 32px;
+  color: #2b3674;
+  font-weight: 600;
+}
+.form-section p {
+  color: #b2b2bf;
+  font-size: 14px;
+}
+
+#email,
+#password {
+  font-size: 12px;
+  padding-left: 1.5rem;
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #cccde2;
+  border-radius: 12px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.form-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #101038;
+}
+/* .checkbox-section {
+  display: flex;
+  margin-top: 4.5rem;
+}
+.checkbox-link {
+  margin-right: 9rem;
+  font-size: 12px;
+}
+.checkbox-section label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2b3674;
+}
+.forgotpsw-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2b3674;
+  text-decoration: none;
+} */
+.signin-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: #1e30a0;
+  color: #fff;
+  border: 2px solid #1e30a0;
+  margin-bottom: 0.7rem;
+}
+#signinForm span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+#signinForm span a {
+  margin-left: 0.3rem;
+  text-decoration: none;
+  color: #50d39c;
+  font-weight: 500;
+}
+#banner-content {
+  background-color: #e7eaff;
+  border-radius: 0px 0px 0px 128px;
+  padding: 1.5rem 1rem;
+  height: 100vh!important;
+}
+
+.login-banner {
+  margin-top: 5rem;
+}
+.wave-font {
+  display: block;
+  margin: auto;
+  width: 34px;
+  height: 27.67px;
+  margin-bottom: 0.5rem;
+}
+.login-banner h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #2b3674;
+}
+.login-banner p {
+  text-align: center;
+  padding: 0px 110px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #10103899;
+}
+.login-banner p::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 1077.5px;
+  top: 237px;
+  background: #50d39c;
+  border-radius: 4.5px;
+  transition: 0.3s;
+  opacity: 1;
+  display: block;
+  margin: auto;
+
+}
+.banner-image {
+  display: block;
+  margin: auto;
+  opacity: 0.9;
+  height: 370px;
+  width: 391px;
+}
+.check-section{
+  margin-top: 4.5rem;
+  margin-bottom: 0.8rem;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+.form-check-label{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2b3674;
+}
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+  margin-right: 9rem;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+}
+.form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+}
+.text-body {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2b3674;
+}
+/*-------------------------------------------------------
+ MEDIA QUERIES
+-------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  /* .signup-button {
+    display: none !important;
+  }*/
+  .create-button {
+    margin-bottom: 1.5rem;
+  }
+  /* .mobile-view-image {
+    height: 250px;
+    width: 300px;
+    opacity: 0.9;
+    margin-left: 15rem;
+    margin-top: 1rem;
+  } */
+  /* .main {
+    margin-left: 2rem;
+  } */
+  .form-section {
+    /* margin-top: -2rem; */
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .form-section h3 {
+    margin-bottom: -0.2rem;
+   
+  }
+  .form-section p {
+    margin-bottom: -2.2rem;
+  }
+  /* .form-section h3,
+  .form-section p {
+    margin-left: 3rem;
+  } */
+  #banner-content {
+    display: none;
+  }
+  .form-label {
+    margin-bottom: -0.5rem;
+  }
+  #email,
+  #password {
+    height: 38px;
+  }
+  #password{
+    margin-bottom: -4rem;
+  }
+  .form-check-input[type="checkbox"]{
+    height: 10px;
+    width: 10px;
+    margin-left: -0.5rem!important;
+  }
+  .text-body,.form-check-label{
+    font-size: 12px;
+  }
+  .signin-button {
+    height: 38px;
+    margin-bottom: 0.8rem;
+    margin-top: 3rem;
+  }
+  #signinForm span {
+    font-size: 12px;
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 689px) {
+  /* .main {
+    margin-left: -1rem;
+  } */
+  /* .mobile-view-image {
+    margin-left: 12rem;
+  } */
+  #signinForm span {
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .create-button{
+     margin-left: 0;
+  }
+  /* .form-section h3,
+  .form-section p {
+    display: block;
+    margin: auto;
+    width: auto;
+  } */
+  .form-section h3{
+    /* padding-top: -9rem; */
+    margin-top: 1rem;
+  }
+  .form-section {
+    padding: 0;
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .form-section p {
+    margin-bottom: -2.2rem;
+  }
+  /* .mobile-view-image {
+    display: block;
+    width: 50%;
+    height: 90%;
+    margin: auto;
+  } */
+  .checkbox-section {
+    margin-left: 0;
+  }
+  .checkbox-link label {
+    margin-right: 3.5rem;
+  }
+  .forgotpsw-link {
+    margin-left: 0;
+  }
+  .signin-button {
+    margin-bottom: 0.3rem;
+  }
+  #signinForm span {
+    text-align: center !important;
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 477px) {
+  .form-section h3{
+    font-size: 25px;
+  }
+  .form-section p{
+    font-size: 11px;
+  }
+  .form-label{
+    font-size: 11px;
+  }
+  #email,#password{
+    font-size: 10px;
+  }
+  #signinForm span {
+    font-size: 11px;
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 437px) {
+  .text-body{
+  margin-left: -2rem;
+  }
+ 
+}
+@media screen and (max-width: 404px) {
+  .text-body{
+  margin-left: -5rem;
+  }
+ 
+}
+@media screen and (max-width: 371px) {
+  .text-body{
+  margin-left: -7rem;
+  }
+ 
+}
+@media screen and (max-width: 325px) {
+  .text-body{
+  margin-left: -9rem;
+  }
+ 
+}
+@media screen and (max-width: 400px) {
+  .signin-button{
+    margin-top: 1.5rem;
+  }
+  /* .form-section h3{
+    margin-top: -1rem;
+  } */
+
+}
+/*------------------------------------------------------------------
+   LARGE SCREEN
+---------------------------------------------------------------------*/
+ @media screen and (max-width: 1200px){
+   .login-banner p{
+    font-size: 14px;
+     padding: 0px 80px;
+   }
+    .login-banner p::after {
+    display: none;
+  }
+   .banner-image{
+    height: 330px;
+    width: 391px;
+
+   }
+}
+@media screen and (min-width:769px) and (max-width: 991px) {
+  .login-banner p::after {
+    display: none;
+  }
+  .create-button{
+
+  }
+  /* .signup-button{
+    display: none;
+  }
+
+  .signup-button::after {
+    display: none;
+  } */
+  #banner-content {
+    display: none;
+  }
+  /* .mobile-view-image {
+    height: 250px;
+    width: 350px;
+    opacity: 0.9;
+    margin-left: 20rem;
+    margin-top: 1rem;
+  } */
+  /* .main {
+    /* margin-left: 6rem;
+    display: block;
+    margin: auto;
+    width: auto;
+  } */
+  .form-section {
+    display: block;
+    margin: auto;
+    width: auto;
+    /* margin-top: -2rem; */
+  }
+  .form-section h3 {
+    margin-bottom: -0.2rem;
+  }
+  .form-section p {
+    margin-bottom: -2.2rem;
+  }
+  /* .form-section h3,
+  .form-section p {
+    margin-left: 3rem;
+  } */
+  #banner-content {
+    display: none;
+  }
+  .form-label {
+    margin-bottom: -0.5rem;
+  }
+  #email,
+  #password {
+    height: 38px;
+  }
+  #password{
+    margin-bottom: -4rem;
+  }
+  .form-check-input[type="checkbox"]{
+    height: 10px;
+    width: 10px;
+    margin-left: -0.5rem!important;
+  }
+  .text-body,.form-check-label{
+    font-size: 12px;
+  }
+  .signin-button {
+    height: 38px;
+    margin-bottom: 0.8rem;
+    margin-top: 3.55rem;
+  }
+  #signinForm span {
+    font-size: 12px;
+   margin-left: 13rem;
+  }
+}
+
