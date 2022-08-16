@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+  padding-left: 3.5rem;
+}
+.header-link {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 5rem;
+}
+.signin-button {
+  width: 84px;
+  height: 40px;
+  padding: 0.5rem 1.5rem;
+  background: #0015a1;
+  border: #0015a1;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 5rem;
+  margin-top: 3rem;
+}
+
+.form-label {
+  margin-bottom: -0.2rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #101038;
+}
+#text-input {
+  font-size: 12px;
+  padding-left: 1.5rem;
+  height: 40px;
+  width: 392px;
+  border: 1px solid #2a46ff;
+  border-radius: 12px;
+  background: #ffffff;
+  font-weight: 400;
+  line-height: 100%;
+}
+.submit-button {
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid #0015a1;
+  width: 400px;
+  height: 40px;
+  background: #0015a1;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+#banner-content {
+  padding: 1.5rem 1rem;
+  height: 100vh;
+}
+
+.login-banner {
+  margin-top: 8.5rem;
+}
+.login-banner h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: #2b3674;
+}
+.login-banner p {
+  text-align: center;
+  padding: 0px 100px;
+  line-height: 19px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #cccde2;
+}
+.banner-image {
+  height: 300px;
+  width: 391px;
+  position: absolute;
+  left: 64.1%;
+}
+.logo {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  left: 90px;
+  top: 3px;
+}
+.empty {
+  position: absolute;
+  height: 100vh;
+  left: 81.2%;
+  right: 0.22%;
+  top: 0px;
+  background-color: #e7eaff;
+  opacity: 0.2;
+  border-radius: 0px 0px 0px 108px;
+}
+/*-------------------------------------------------------
+ MEDIA QUERIES
+-------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .signin-button {
+    height: 38px;
+    margin-bottom: 1rem;
+  }
+  .banner-image {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .empty {
+    display: none;
+  }
+  #banner-content {
+    display: none;
+  }
+  .form-section {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .form-outline {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .form-label {
+    margin-bottom: -0.5rem;
+  }
+  #text-input {
+    height: 38px;
+    width: 90%;
+    margin-bottom: -0.2rem;
+  }
+  .submit-button {
+    height: 38px;
+    width: 90%;
+    margin-top: 1.6rem;
+    /* margin-bottom: 2rem; */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .signin-button {
+    margin-left: -5rem;
+  }
+
+  .form-section {
+    padding: 0;
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 477px) {
+  .form-label {
+    font-size: 11px;
+  }
+  #text-input {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .submit-button {
+    margin-top: 1.5rem;
+  }
+}  
+/*------------------------------------------------------------------
+   LARGE SCREEN
+---------------------------------------------------------------------*/
+@media screen and (max-width: 1200px) {
+  .login-banner p {
+    font-size: 14px;
+    padding: 0px 80px;
+  }
+  .login-banner p::after {
+    display: none;
+  }
+  .banner-image {
+    height: 330px;
+    width: 391px;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    left: 90px;
+    top: 3px;
+  }
+  .empty {
+    height: 100vh;
+    left: 80%;
+    right: 0.15%;
+    top: 0px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .main{
+    margin-left: 4rem;
+  }
+  .login-banner p::after {
+    display: none;
+  }
+  .banner-image {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  #banner-content {
+    display: none;
+  }
+  .empty {
+    display: none;
+  }
+  .form-section {
+    display: block;
+    margin: auto;
+    width: auto;
+    
+  }
+  #banner-content {
+    display: none;
+  }
+  .form-label {
+    margin-bottom: -0.5rem;
+  }
+  #text-input {
+    height: 38px;
+  }
+  .submit-button {
+    height: 38px;
+    margin-bottom: 0.8rem;
+    margin-top: 3.55rem;
+  }
+}
