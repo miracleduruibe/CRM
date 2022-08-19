@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  padding-left: 3.5rem;
+}
+.header-link {
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 10.2rem;
+}
+.signup-button {
+  width: 84px;
+  height: 40px;
+  padding: 0.5rem 1.5rem;
+  background: #0015a1;
+  border: #0015a1;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+.create-acct a {
+  text-decoration: none;
+  color: aqua;
+  background-color: #747685;
+  padding: 0.5rem 1.2rem;
+  font-size: 13px;
+  border-radius: 70px;
+}
+.form-section {
+  padding-right: 3rem;
+  padding-left: 5rem;
+  margin-top: 5rem;
+}
+#createAcctForm {
+  margin-top: -2rem;
+  margin-left: 5.5rem;
+}
+.createacct-header h2 {
+  font-size: 27px;
+  font-weight: bolder !important;
+  color: #1e1e1e;
+}
+.createacct-header p {
+  font-size: 14px;
+  padding-right: 8.3rem;
+  color: #1e1e1e80;
+  font-weight: 600;
+  padding-bottom: 0.7rem;
+}
+#active-profile-link {
+  padding-top: 1rem;
+  padding-left: -2rem;
+  margin-left: 0.3rem;
+  margin-bottom: 2rem;
+  gap: 16px;
+}
+#active-profile-link:hover {
+  padding-top: 1rem;
+  padding-left: -2rem;
+  margin-left: 0.3rem;
+  margin-bottom: 2rem;
+  gap: 16px;
+  width: 300px;
+  height: 70px;
+  border: 1px solid #3929bf;
+  border-radius: 10px;
+}
+#active-profile-link .profile-image {
+  margin-left: 0.4rem;
+}
+#active-profile-link h5:hover {
+  font-size: 21px;
+  line-height: 120%;
+}
+#active-profile-link p:hover {
+  font-size: 15px;
+  line-height: 120%;
+}
+#active-profile-link p,
+#active-profile-link h5 {
+  margin-left: -1rem;
+}
+.profile a {
+  text-decoration: none;
+}
+.profile-link {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+.profile-image {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(30, 30, 30, 0.1);
+  border-radius: 50px;
+  width: 54px;
+  height: 54px;
+}
+.profile-link h5 {
+  font-weight: 600;
+  font-size: 19.2px;
+  line-height: 120%;
+  color: #1e1e1e;
+  margin-bottom: 0.3rem;
+}
+.profile-link p {
+  font-weight: 500;
+  font-size: 13.3333px;
+  line-height: 120%;
+  color: #1e1e1e80;
+}
+.design-1 {
+  margin-left: -3.5rem;
+  width: 250px;
+  height: 150px;
+  margin-top: -3.5rem;
+  margin-bottom: -7.4rem;
+}
+.design-2 {
+  margin-left: -17rem;
+  margin-top: -2rem;
+  margin-bottom: -9rem;
+  width: 300px;
+  height: 100px;
+}
+.banner-image {
+  display: block;
+  margin: auto;
+  height: 50vh;
+  width: 30vw;
+}
+
+#banner-content {
+  background-color: #fafbff;
+  height: 100vh;
+}
+
+.login-banner {
+  margin-top: 5.5rem;
+}
+.login-banner h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  color: #1e1e1e;
+}
+/*------------------------------------------------------------
+  MEDIA QUERIES
+--------------------------------------------------------------*/
+@media screen and (max-width: 586px) {
+  /* #createAcctForm {
+    margin-top: -2rem;
+    margin-left: 0rem;
+  }
+  .header-link {
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: -6rem;
+  }
+  .form-section {
+    padding: 0;
+    margin-top: 5rem;
+    margin-left: -9rem !important;
+  }*/
+  .main{
+    margin-left: -3rem;
+  }
+  .design-1,
+  .design-2 {
+    display: none;
+  }
+} 
+
+@media screen  and (max-width: 588px) {
+  
+}
+
+@media screen and (max-width: 682px) {
+  .design-1 {
+    margin-left: -3.5rem;
+    width: 250px;
+    height: 150px;
+  }
+  .design-2 {
+    margin-left: -17rem;
+    margin-bottom: -3rem;
+    width: 300px;
+    height: 100px;
+  }
+  .header-link {
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: -3rem;
+  }
+  .form-section {
+    padding: 0;
+    margin-top: 5rem;
+    position: relative;
+    left: 0%;
+    margin-left: -3rem;
+  }
+}
+/*----------------------------------------------
+LARGE SCREENS
+---------------------------------------------*/
+
+@media screen and (max-width: 991px) {
+  #banner-content {
+    display: none;
+  }
+  .design-1 {
+    margin-left: -3.5rem;
+    margin-top: -1rem;
+    width: 230px;
+    height: 150px;
+  }
+  .design-2 {
+    margin-left: -17rem;
+    margin-top: -1rem;
+    width: 310px;
+    height: 100px;
+  }
+  .header-link {
+    padding: 0;
+    margin-top: 1rem;
+    position: relative;
+    left: 50%;
+  }
+
+  .form-section {
+    padding: 0;
+    margin-top: 5rem;
+    position: relative;
+    left: 50%;
+    right: 50%;
+  }
+  #createAcctForm {
+    margin-top: -2rem;
+    margin-left: 0rem;
+  }
+
+  .createacct-header p {
+    font-size: 14px;
+    padding-right: 0rem;
+    padding-bottom: 0.7rem;
+  }
+}
+@media screen and (max-width: 1326px){
+  
+}
+@media screen and (max-width: 1326px) {
+  .login-banner {
+    margin-top: 6.5rem;
+  }
+  .banner-image {
+    height: 280px;
+    width: 350px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 64%;
+  }
+}
