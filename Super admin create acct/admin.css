@@ -26,14 +26,6 @@
   letter-spacing: -0.05em;
   color: #ffffff;
 }
-.create-acct a {
-  text-decoration: none;
-  color: aqua;
-  background-color: #747685;
-  padding: 0.5rem 1.2rem;
-  font-size: 13px;
-  border-radius: 70px;
-}
 .form-section {
   padding-right: 3rem;
   padding-left: 5rem;
@@ -158,44 +150,32 @@
   MEDIA QUERIES
 --------------------------------------------------------------*/
 @media screen and (max-width: 586px) {
-  /* #createAcctForm {
-    margin-top: -2rem;
-    margin-left: 0rem;
+  .createacct-header p{
+    font-size: 12px!important;
+    padding-right: 6rem!important;
   }
-  .header-link {
-    padding: 0;
-    margin-top: 1rem;
-    margin-left: -6rem;
+}  
+
+@media screen and (max-width: 682px) {
+  /* .design-1 {
+    margin: 0!important;
+    position: absolute;
+    bottom: 1%;
+    left: -1%;
+    width: 200px!important;
+    height: 100px;
   }
-  .form-section {
-    padding: 0;
-    margin-top: 5rem;
-    margin-left: -9rem !important;
-  }*/
-  .main{
-    margin-left: -3rem;
-  }
+  .design-2 {
+    margin: 0!important;
+    position: absolute;
+    bottom: 1%;
+    left: -1%;
+    width: 225px!important;
+    height: 100px;
+  } */
   .design-1,
   .design-2 {
     display: none;
-  }
-} 
-
-@media screen  and (max-width: 588px) {
-  
-}
-
-@media screen and (max-width: 682px) {
-  .design-1 {
-    margin-left: -3.5rem;
-    width: 250px;
-    height: 150px;
-  }
-  .design-2 {
-    margin-left: -17rem;
-    margin-bottom: -3rem;
-    width: 300px;
-    height: 100px;
   }
   .header-link {
     padding: 0;
@@ -255,9 +235,7 @@ LARGE SCREENS
     padding-bottom: 0.7rem;
   }
 }
-@media screen and (max-width: 1326px){
-  
-}
+
 @media screen and (max-width: 1326px) {
   .login-banner {
     margin-top: 6.5rem;
