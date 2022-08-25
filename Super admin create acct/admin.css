@@ -8,11 +8,13 @@
 .main {
   padding-left: 3.5rem;
 }
+
 .header-link {
   padding-top: 1rem;
   padding-right: 3rem;
   padding-left: 10.2rem;
 }
+
 .signup-button {
   width: 84px;
   height: 40px;
@@ -26,20 +28,24 @@
   letter-spacing: -0.05em;
   color: #ffffff;
 }
+
 .form-section {
   padding-right: 3rem;
   padding-left: 5rem;
   margin-top: 5rem;
 }
+
 #createAcctForm {
   margin-top: -2rem;
   margin-left: 5.5rem;
 }
+
 .createacct-header h2 {
   font-size: 27px;
   font-weight: bolder !important;
   color: #1e1e1e;
 }
+
 .createacct-header p {
   font-size: 14px;
   padding-right: 8.3rem;
@@ -47,6 +53,7 @@
   font-weight: 600;
   padding-bottom: 0.7rem;
 }
+
 #active-profile-link {
   padding-top: 1rem;
   padding-left: -2rem;
@@ -54,6 +61,7 @@
   margin-bottom: 2rem;
   gap: 16px;
 }
+
 #active-profile-link:hover {
   padding-top: 1rem;
   padding-left: -2rem;
@@ -65,24 +73,30 @@
   border: 1px solid #3929bf;
   border-radius: 10px;
 }
+
 #active-profile-link .profile-image {
   margin-left: 0.4rem;
 }
+
 #active-profile-link h5:hover {
   font-size: 21px;
   line-height: 120%;
 }
+
 #active-profile-link p:hover {
   font-size: 15px;
   line-height: 120%;
 }
+
 #active-profile-link p,
 #active-profile-link h5 {
   margin-left: -1rem;
 }
+
 .profile a {
   text-decoration: none;
 }
+
 .profile-link {
   text-transform: capitalize;
   display: flex;
@@ -90,14 +104,16 @@
   margin-bottom: 2rem;
   margin-left: 1rem;
 }
+
 .profile-image {
   margin-right: 1rem;
   margin-bottom: 1rem;
-  background: rgba(30, 30, 30, 0.1);
+  background: #E9E9E9;
   border-radius: 50px;
   width: 54px;
   height: 54px;
 }
+
 .profile-link h5 {
   font-weight: 600;
   font-size: 19.2px;
@@ -105,12 +121,14 @@
   color: #1e1e1e;
   margin-bottom: 0.3rem;
 }
+
 .profile-link p {
   font-weight: 500;
   font-size: 13.3333px;
   line-height: 120%;
   color: #1e1e1e80;
 }
+
 .design-1 {
   margin-left: -3.5rem;
   width: 250px;
@@ -118,6 +136,7 @@
   margin-top: -3.5rem;
   margin-bottom: -7.4rem;
 }
+
 .design-2 {
   margin-left: -17rem;
   margin-top: -2rem;
@@ -125,6 +144,7 @@
   width: 300px;
   height: 100px;
 }
+
 .banner-image {
   display: block;
   margin: auto;
@@ -140,76 +160,357 @@
 .login-banner {
   margin-top: 5.5rem;
 }
+
 .login-banner h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 61px;
   color: #1e1e1e;
 }
+
 /*------------------------------------------------------------
   MEDIA QUERIES
 --------------------------------------------------------------*/
-@media screen and (max-width: 586px) {
-  .createacct-header p{
-    font-size: 12px!important;
-    padding-right: 6rem!important;
-  }
-}  
-
-@media screen and (max-width: 682px) {
-  /* .design-1 {
-    margin: 0!important;
-    position: absolute;
-    bottom: 1%;
-    left: -1%;
-    width: 200px!important;
-    height: 100px;
-  }
-  .design-2 {
-    margin: 0!important;
-    position: absolute;
-    bottom: 1%;
-    left: -1%;
-    width: 225px!important;
-    height: 100px;
-  } */
-  .design-1,
-  .design-2 {
+/* @media screen and (max-width: 400px) {
+  #banner-content {
     display: none;
   }
+
+  /* .main {
+    margin-left: -4rem !important;
+  } 
+
   .header-link {
-    padding: 0;
-    margin-top: 1rem;
-    margin-left: -3rem;
+    /* padding-top: 1rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important; 
   }
+
+  .signup-button {
+    width: 84px;
+    height: 40px;
+    font-size: 12px;
+  }
+
   .form-section {
-    padding: 0;
-    margin-top: 5rem;
-    position: relative;
-    left: 0%;
-    margin-left: -3rem;
+     padding-right: 0rem !important;
+    padding-left: -4rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  #createAcctForm {
+     margin-top: 0rem !important;
+    margin-left: 0rem !important; 
+  }
+
+  .createacct-header h2 {
+    font-size: 23px !important;
+    font-weight: 600;
+  }
+
+  .createacct-header p {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    padding-right: 7rem !important;
+    margin-bottom: 0.1rem;
+  }
+
+  #active-profile-link {
+    padding-top: 1rem;
+    padding-left: 0rem !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  #active-profile-link:hover {
+    width: 250px !important;
+    height: 60px !important;
+  }
+
+  #active-profile-link .profile-image {
+    margin-left: 0rem !important;
+  }
+
+  #active-profile-link h5:hover {
+    font-size: 17.2px !important;
+    line-height: 120% !important;
+  }
+
+  #active-profile-link p:hover {
+    font-size: 12px !important;
+    line-height: 120% !important;
+  }
+
+  .profile {
+    margin-left: -0.5rem !important;
+  }
+
+  .profile-link {
+    margin-bottom: 1.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .profile-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .profile-link h5 {
+    font-size: 17.2px;
+  }
+
+  .profile-link p {
+    font-size: 12px;
+  }
+
+  .design-1 {
+    width: 190px;
+    height: 80px;
+    margin-left: -2.5rem;
+    margin-top: 2.9rem;
+  }
+
+  .design-2 {
+    margin-left: -11.5rem;
+    margin-top: 4.4rem;
+    width: 110px;
+    height: 28px;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  #banner-content {
+    display: none;
+  }
+
+  .main {
+    margin-left: 15rem !important;
+  }
+
+  .header-link {
+    padding-top: 1rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+
+  .signup-button {
+    width: 84px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .form-section {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  #createAcctForm {
+    margin-top: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .createacct-header h2 {
+    font-size: 23px !important;
+    font-weight: 600;
+  }
+
+  .createacct-header p {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    padding-right: 7rem !important;
+    margin-bottom: 0.1rem;
+  }
+
+  #active-profile-link {
+    padding-top: 1rem;
+    padding-left: 0rem !important;
+    margin-left: 0.5rem !important;
+    margin-bottom: 1.2rem;
+  }
+
+  #active-profile-link:hover {
+    width: 250px;
+    height: 60px;
+  }
+
+  #active-profile-link .profile-image {
+    margin-left: 0rem;
+  }
+
+  #active-profile-link h5:hover {
+    font-size: 17.2px;
+    line-height: 120%;
+  }
+
+  #active-profile-link p:hover {
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .profile {
+    margin-left: -0.5rem;
+  }
+
+  .profile-link {
+    margin-bottom: 1.2rem;
+    margin-left: 0.8rem !important;
+  }
+
+  .profile-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .profile-link h5 {
+    font-size: 17.2px;
+  }
+
+  .profile-link p {
+    font-size: 12px;
+  }
+
+  .design-1 {
+    width: 250px;
+    height: 130px;
+    margin-left: -16rem;
+    margin-top: 2.9rem;
+  }
+
+  .design-2 {
+    margin-left: -18.1rem;
+    margin-top: 4.3rem;
+    width: 250px;
+    height: 80px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .header-link {
+    margin-left: 3rem !important;
+  }
+
+  .form-section {
+    margin-left: 3rem !important;
+  }
+
+  .createacct-header p {
+    padding-right: 0rem !important;
+  }
+
+  .design-1 {
+    height: 80px!important;
+    top: 73%!important;
+  }
+
+  .design-2 {
+    width: 105px!important;
+    height: 47px!important;
+    top: 74%!important;
+    left: 80.5%!important;
+  }
+
+  .design-1,
+  .design-2 {
+    position: absolute;
+
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .design-1 {
+    width: 210px;
+    height: 100px ;
+    top: 77%;
+    left: 51%;
+  }
+
+  .design-1,
+  .design-2 {
+    position: absolute;
+
+  }
+
+  .design-2 {
+    width: 250px;
+    height: 50px;
+    top: 82%;
+    left: 58.5%;
+  }
+
+  .main {
+    display: block !important;
+    margin: auto !important;
+    width: auto !important;
+  }
+
+  .header-link {
+    margin-left: 8rem;
+  }
+
+  .form-section {
+    margin-left: 8rem;
+  }
+
+  .createacct-header p {
+    padding-right: 9rem;
+  }
+}
+
+/*@media screen and (max-width: 682px) {
+  .main {
+    margin-left: 9rem !important;
+  }
+
+  .design-1 {
+    width: 250px;
+    height: 130px;
+    margin-left: -14rem;
+    margin-top: -2rem !important;
+  }
+
+  .design-2 {
+    margin-left: -14.1rem;
+    margin-top: -0.3rem !important;
+    width: 250px;
+    height: 80px;
+  }
+
+  .createacct-header p {
+    padding-right: 4rem !important;
+    margin-bottom: 0.1rem;
+  }
+} */
+
 /*----------------------------------------------
 LARGE SCREENS
 ---------------------------------------------*/
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
   #banner-content {
     display: none;
   }
+
+  .main {
+    margin-left: 4rem;
+  }
+
   .design-1 {
-    margin-left: -3.5rem;
-    margin-top: -1rem;
+    margin-left: -4.8rem;
+    margin-top: -2rem;
     width: 230px;
     height: 150px;
   }
+
   .design-2 {
-    margin-left: -17rem;
-    margin-top: -1rem;
-    width: 310px;
+    margin-left: -15.9rem;
+    margin-top: -0.8rem;
+    width: 280px;
     height: 100px;
   }
+
   .header-link {
     padding: 0;
     margin-top: 1rem;
@@ -219,20 +520,21 @@ LARGE SCREENS
 
   .form-section {
     padding: 0;
-    margin-top: 5rem;
+    margin-top: 2rem;
     position: relative;
     left: 50%;
     right: 50%;
   }
+
   #createAcctForm {
-    margin-top: -2rem;
+    margin-top: 0rem;
     margin-left: 0rem;
   }
 
   .createacct-header p {
-    font-size: 14px;
-    padding-right: 0rem;
-    padding-bottom: 0.7rem;
+    font-size: 13px;
+    padding-right: 4rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -240,6 +542,7 @@ LARGE SCREENS
   .login-banner {
     margin-top: 6.5rem;
   }
+
   .banner-image {
     height: 280px;
     width: 350px;
